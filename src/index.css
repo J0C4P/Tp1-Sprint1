@@ -1,1 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
+
+@theme {
+  /* Fondo general de la app */
+  --color-app-bg: #20354a;
+  /* Fondo de las etiquetas */
+  --color-label-bg: #e2e8f0;
+  /* Borde de las etiquetas */
+  --color-label-border: #cbd5e1;
+  /* Texto de las etiquetas */
+  --color-label-text: #0f172a;
+  /* Fondo del encabezado principal */
+  --color-header-bg: #ffffff;
+  /* Borde del encabezado principal */
+  --color-header-border: #e2e8f0;
+  /* Título principal */
+  --color-title-text: #0f172a;
+  /* Texto de presentación */
+  --color-subtitle-text: #475569;
+  /* Texto del footer */
+  --color-footer-text: #cbd5e1;
+  /* Fondo de las tarjetas */
+  --color-card-bg: #ffffff;
+  /* Fondo de las tarjetas (hover) */
+  --color-card-bg-hover: #bfc5ff;
+  /* Borde de las tarjetas */
+  --color-card-border: #e2e8f0;
+  /* Texto de las tarjetas */
+  --color-card-text: #1e293b;
+  /* Fondo del botón principal */
+  --color-button-bg: #2563eb;
+  /* Fondo del botón principal al pasar el mouse */
+  --color-button-bg-hover: #3713ca;
+  /* Borde del botón principal */
+  --color-button-border: #0e1d4e;
+  /* Texto del botón principal */
+  --color-button-text: #f8fafc;
+
+  --font-roboto: 'Roboto', sans-serif;
+}
